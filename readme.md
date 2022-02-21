@@ -5,7 +5,7 @@
     This was the first web portfolio I built from scratch with html-css and javascript.
 </p>
 <p align="center">
-  <a href="https://donvoid18.github.io/patrickP2/" target="_blank">
+  <a href="https://donvoid18.github.io/patrickP0/" target="_blank">
     <img src="Imagenes/portfolio0.0.png" alt="Portafolio Web" title="Portafolio Web" />
   </a>
 </p>
