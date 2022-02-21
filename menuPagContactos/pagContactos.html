@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pagContactosStyle.css">
+    <script src="https://kit.fontawesome.com/71a4b48035.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- HEADER DEL PAGINA -->
+    <!-- Menu principal  -->
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="../index.html" class="nav-menu-link">Inicio</a></li>
+                <li class="nav-menu-item"><a href="../menuPagVideo/pagVideo.html" class="nav-menu-link">Video</a></li>
+                <li class="nav-menu-item"><a href="../menuPagSobreMi/pagSobreMi.html" class="nav-menu-link">Sobre mí</a></li>
+                <li class="nav-menu-item"><a href="" class="nav-menu-link nav-menu-link-active">Contactos</a></li>
+                <li class="nav-menu-item"><a href="../creacionDeLinks/pagCreationLink.html" class="nav-menu-link">Generar links</a></li>
+                <li class="nav-menu-item"><a href="../gestion/indexGestion.html" class="nav-menu-link">Objetos</a></li>
+                <li class="nav-menu-item"><a href="" class="nav-menu-icon"><i class="fab fa-facebook-square"></i></a></li>
+                <li class="nav-menu-item"><a href="" class="nav-menu-icon"><i class="fab fa-youtube"></i></a></li>
+                <li class="nav-menu-item"><a href="" class="nav-menu-icon"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- PARTE PRINCIPAL DE LA PAGINA -->
+    <div class="div-general">
+        <!-- FORMULARIO DE LA PAGINA -->
+        <div class="contenedor-formulario">
+            <h3 class="title-form">Rellene el formulario para trabajar con nosotros</h3>
+            <div class="contenedor-secund-form">
+                <form action="" target="">
+                    <input class="input" type="text" id="name" name="nombre" placeholder="Nombre" required>
+                    <input class="input" type="text" id="lastname" name="apellidos" placeholder="Apellidos" required>
+                    <input class="input" type="text" id="documentIdent" name="documentoIdentidad" placeholder="DNI" required>
+                    <input class="input" type="text" id="city" name="ciudad" placeholder="Ciudad" required>
+                    <input class="input" type="email" id="email" name="correo" placeholder="Correo Electrónico" required>
+                    <select class="input" name="carrera" id="carrert" required>
+                    <option value="" selected="selected">Seleccionar Carrera...</option>
+                    <option>Ingeniería de sistemas</option>
+                    <option>Ingeniaría informática</option>
+                    <option>Computación Avanzada</option>
+                    <option>Autodidacta</option>
+                    </select>
+                    
+                    <input class="sex-form" type="radio" id="sexM" name="sexo" required checked>
+                    <label class="sex-form-label" for="sexM">Masculino</label>
+                    
+                    <input class="sex-form" type="radio" id="sexF" name="sexo" required>
+                    <label class="sex-form-label" for="sexF">Femenino</label>
+                    <br>
+                    <input class="condic-form-input" type="checkbox" id="aceptCondiciones" name="aceptarCondiciones" required>
+                    <label class="condic-form-label" for="aceptCondiciones">Acepto los terminos y condiciones.</label>
+                    <input class="input-boton" value="Enviar solicitud" type="submit">
+                </form>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- FOOTER DE LA PAGINA -->
+    <footer class="footer">
+        
+        <div class="icons-footer">
+            <a href="" class="icon"><i class="fab fa-facebook-square"></i></a>
+            <a href="" class="icon"><i class="fab fa-youtube"></i></a>
+            <a href="" class="icon"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p class="gratulaciones">Gracias por visitar mi página :)</p>
+        <p class="der">Todos los derechos de autor reservados.</p>
+    </footer>
+</body>
+</html>

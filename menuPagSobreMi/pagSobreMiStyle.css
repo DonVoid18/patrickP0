@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #212f45;
+}
+.header{
+    background-color: #ffc300;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    -webkit-box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.75);
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 30px;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+.nav-menu-link{
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.nav-menu-icon{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.nav-menu-link i{
+    line-height: 70px;
+}
+.nav-menu-link-active{
+    background-color: #023e7d;
+}
+.nav-menu-link:hover{
+    background-color: #023e7d;
+    transition: 0.3s;
+}
+.nav-menu-icon:hover{
+    color: black;
+    transition: 0.3s;
+}
+
+/* CUERPO PRINCIPAL DE PAGINA */
+.div-general{
+    padding-top: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-general{
+    margin: 50px;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/* CONTENDOR IZQUIERDO */
+.contenedor-izquierdo{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.imagen-izq{
+    padding: 5px;
+}
+.imagen-izq img{
+    width: 300px;
+    border-radius: 10px;
+}
+.redes-sociales-izq{
+    display: flex;
+    justify-content: center;
+}
+.icons-redes-sociales-izq i{
+    font-size: 50px; 
+    margin:5px 5px;
+}
+.facebook{
+    color: #3f37c9;
+}
+.youtube{
+    color: #d00000;
+}
+
+
+/* CONTENDOR DERECHO */
+.contendor-derecho{
+    width: 820px;
+}
+.title-contendor-der{
+    background-color: #4a4e69;
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+.informacion-der{
+    padding: 10px;
+    font-size: 25px;
+    color: black;
+}
+.info-der-dato{
+    margin-bottom: 20px;
+}
+.info-der-dato-color{
+    display: inline;
+    color: red;
+}
+
+
+/* CODIGO CSS DEL FOOTER */
+.footer{
+    width: 100%;
+    text-align: center;
+    background-color: #001219;
+    color: white;
+}
+.icons-footer{
+    padding: 20px 0 0 0;
+}
+.icons-footer .icon{
+   font-size: 4em;
+   margin: 0 20px; 
+}
+.icon{
+    color: white;
+}
+.icon:hover{
+    color: dimgrey;
+}
+.gratulaciones{
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+}
+.der{
+    height: 50px;
+    line-height: 50px;
+}

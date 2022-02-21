@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/71a4b48035.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        *{
+    margin: 0;
+    box-sizing: border-box;
+    }
+    body{
+        font-family: sans-serif;
+    }
+    .chat{
+        background-color: aqua;
+        width: 350px;
+        height: 350px;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        color: white;
+    }
+    /* CABEZA */
+    .infoChat{
+        background-color: red;
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+    }
+    .imagen{
+        width: 40px;
+        height: 40px;
+        background-color: aqua;
+        border-radius: 50%;
+        margin: 0 10px;
+    }
+
+    /* CUERPO */
+    .mensaje-chat{
+        width: 90%;
+        height: 200px;
+        background-color: red;
+        margin: 10px auto;
+        overflow-y: auto;
+    }
+    .mensaje-bot, .mensaje-cliente{
+        width: auto;
+        height: auto;
+        border-radius: 20px;
+        background-color: black;
+        margin: 10px;
+        padding: 20px;
+        
+    }
+    .mensaje-bot{
+        border-top-left-radius: 0;
+        text-align: left;
+    }
+    
+    .contendorMensaje{
+        width: 100%;
+        background-color: violet;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .mensaje-cliente{
+        border-bottom-right-radius: 0;
+        width: fit-content;
+        float: right;
+        text-align: left;
+    }
+    /* BOTONES */
+    .botones-textos{
+        width: 90%;
+        justify-content: center;
+        margin: auto;
+        background-color: red;
+        display: flex;
+    }
+    .mensaje{
+        width: 80%;
+        height: 40px;
+    }
+    .boton{
+        width: 20%;
+        background: none;
+        border: none;
+    }
+    .boton i{
+        font-size: 30px;
+    }
+    .boton i:hover{
+        color: blue;
+    }
+    </style>
+</head>
+<body>
+    <div class="chat">
+        <!-- CABEZA -->
+        <div class="infoChat">
+            <div class="imagen"></div>
+            <h3 class="nombre-chat-bot">ChatBot Lucy</h3>
+        </div>
+        <!-- CUERPO -->
+        <div class="mensaje-chat" id="mensaje-chat">
+            <div class="mensaje-bot">
+                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, voluptas.</span>
+            </div>
+            <div class="mensaje-cliente">
+                <span>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa at eum explicabo perferendis eveniet natus est. Fugiat, amet sequi! Omnis, quaerat. Eum consectetur corrupti reprehenderit excepturi eligendi iste beatae fuga.
+                </span>
+            </div>
+            <div class="contendorMensaje">
+                <div class="mensaje-cliente">
+                    angelo patrick rios nolasco angelo patrick
+                </div>
+            </div>
+        </div>
+        <div class="botones-textos">
+            <input type="text" class="mensaje" id="mensaje" placeholder="Escribir mensaje">
+            <button class="boton" onclick="responderCliente()"><i class="far fa-arrow-alt-circle-right"></i></button>
+        </div>
+    </div>
+</body>
+</html>

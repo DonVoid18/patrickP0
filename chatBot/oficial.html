@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/71a4b48035.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+        <div class="chat">
+            <!-- CABEZA -->
+            <div class="infoChat">
+                <div class="imagen"><img src="employee (1).png" alt="Imagen del chat bot"></div>
+                <h3 class="nombre-chat-bot">cliente</h3>
+                <button class="cerrarChat"><i class="fas fa-times" onclick=""></i></button>
+            </div>
+            <!-- CUERPO -->
+            <div class="mensaje-chat" id="mensaje-chat">
+                
+            </div>
+            <div class="botones-textos">
+                <input type="text" class="mensaje" id="mensaje" placeholder="Escribir mensaje">
+                <button class="boton" onclick="responderCliente()"><i class="far fa-arrow-alt-circle-right"></i></button>
+            </div>
+            <script src="codigo.js"></script>
+        </div>
+</body>
+</html>

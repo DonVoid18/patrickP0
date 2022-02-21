@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pagCreationLink-style.css">
+    <script src="https://kit.fontawesome.com/71a4b48035.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Menu principal  -->
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="../index.html" class="nav-menu-link">Inicio</a></li>
+                <li class="nav-menu-item"><a href="../menuPagVideo/pagVideo.html" class="nav-menu-link">Video</a></li>
+                <li class="nav-menu-item"><a href="../menuPagSobreMi/pagSobreMi.html" class="nav-menu-link">Sobre mí</a></li>
+                <li class="nav-menu-item"><a href="../menuPagContactos/pagContactos.html" class="nav-menu-link">Contactos</a></li>
+                <li class="nav-menu-item"><a href="" class="nav-menu-link  nav-menu-link-active">Generar links</a></li>
+                <li class="nav-menu-item"><a href="../gestion/indexGestion.html" class="nav-menu-link">Objetos</a></li>
+                <li class="nav-menu-item"><a href="" class="nav-menu-icon"><i class="fab fa-facebook-square"></i></a></li>
+                <li class="nav-menu-item"><a href="" class="nav-menu-icon"><i class="fab fa-youtube"></i></a></li>
+                <li class="nav-menu-item"><a href="" class="nav-menu-icon"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- PARTE PRINCIPAL DE LA PAGINA -->
+    <main class="main">
+        <div class="contenedor">
+            <div class="contenedor-link-clase">
+                <div class="link" id="caja-link-clase">
+                </div>
+            <input class="input-generador" type="submit" value="Copiar" id="boton-copiar-link" onclick="copiarLink()">
+            </div>
+            <div class="contenedor-botones">
+                <input class="input-botones" type="date" id="fechaInput" name="Fecha" required>
+                <select class="input-botones" name="select-hour" id="selecion-horario" required>
+                    <option>10:00 am - 12:00am</option>
+                    <option>2:00 pm - 4:00pm</option>
+                    <option>6:00 pm - 8:00pm</option>
+                    <option selected="selected">Seleccionar Horario...</option>
+                </select>
+                <select class="input-botones" name="select-teacher" id="selecion-profesor" required>
+                    <option>Ing.MiltónPardavé</option>
+                    <option>Ing.ElmerChuquiyauri</option>
+                    <option selected="selected">Seleccionar Carrera...</option>
+                </select>
+                <button class="botonEnviarDatos input-botones" onclick="crearLink()">Generar link</button>
+            </div>
+            <div class="contenedor-todos-links">
+                <table class="tabla">
+                    <thead>
+                        <tr class="cabecera-table">
+                            <th class="cebecera-table-valor">Clase N°</th>
+                            <th class="cebecera-table-valor">Fecha</th>
+                            <th class="cebecera-table-valor">Horario</th>
+                            <th class="cebecera-table-valor">Profesor</th>
+                            <th class="cebecera-table-valor">Link de la clase</th>
+                            <th class="cebecera-table-valor">Avance %</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER DE LA PAGINA -->
+    <footer class="footer">
+        
+        <div class="icons-footer">
+            <a href="" class="icon"><i class="fab fa-facebook-square"></i></a>
+            <a href="" class="icon"><i class="fab fa-youtube"></i></a>
+            <a href="" class="icon"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p class="gratulaciones">Gracias por visitar mi página :)</p>
+        <p class="der">Todos los derechos de autor reservados.</p>
+    </footer>
+    <script src="Links.js"></script>
+</body>
+</html>

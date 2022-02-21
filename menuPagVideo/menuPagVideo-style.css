@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #212f45;
+}
+/* .header{
+    background-color: #ffc300;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    -webkit-box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.75);
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 30px;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+.nav-menu-link{
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.nav-menu-icon{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.nav-menu-link i{
+    line-height: 70px;
+}
+.nav-menu-link-active{
+    background-color: #023e7d;
+}
+.nav-menu-link:hover{
+    background-color: #023e7d;
+    transition: 0.3s;
+}
+.nav-menu-icon:hover{
+    color: black;
+    transition: 0.3s;
+} */
+
+
+
+/* PARTE PRINCIPAL DE LA PAGINA DONDE IRAN TODOS LOS CANALES RELACIONADOS CON LA PROGRAMACION */
+.div-general{
+    padding-top: 120px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-general-todo{
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-General-LosCanales{
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 20px 0;
+    background-color: white;
+    opacity: 0.8;
+}
+.section-General-LosCanales:hover{
+    opacity: 1;
+    transition: 0.3s;
+    -webkit-box-shadow: 0px 2px 29px 3px rgba(0,0,0,0.76);
+    -moz-box-shadow: 0px 2px 29px 3px rgba(0,0,0,0.76);
+    box-shadow: 0px 2px 29px 3px rgba(0,0,0,0.76);
+}
+/* padre */
+.section-Canal-Youtube{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+}
+.contenedor-izquierdo-Info{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+.image-Canal-redond{
+    width: 200px;
+    border-radius: 50%;
+}
+.contenedorDerechoInfo{
+    background-color: burlywood;
+    width: 450px;
+    margin: 10px;
+    background-color: #495057;
+    border-radius: 10px;
+}
+.Nombre{
+    text-align: center;
+    padding: 20px;
+}
+.title-canal-youtube{
+    font-size: 2em;
+}
+.Descripcion{
+    text-align: justify;
+    padding: 0 20px;
+    
+}
+.descripcion-canal{
+    font-size: 1em;
+    text-indent: 20px;
+    line-height: 30px;
+}
+.boton-Canal{
+    text-align: center;
+    padding: 20px;
+}
+.boton-original-canal:hover{
+    background-color: #adb5bd;
+    color: black;
+    transition: 0.5s;
+}
+.boton-original-canal{
+    width: 100%;
+    padding: 15px;
+    background: none;
+    border: none;
+    background-color: #212529;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    color: white;
+}
+
+.boton-original-canal i{
+    color: red;
+    padding-left: 10px;
+    font-size: 20px;
+}
+/* CODIGO CSS DEL FOOTER */
+.footer{
+    width: 100%;
+    text-align: center;
+    background-color: #001219;
+    color: white;
+}
+.icons-footer{
+    padding: 20px 0 0 0;
+}
+.icons-footer .icon{
+   font-size: 4em;
+   margin: 0 20px; 
+}
+.icon{
+    color: white;
+}
+.icon:hover{
+    color: dimgrey;
+}
+.gratulaciones{
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+}
+.der{
+    height: 50px;
+    line-height: 50px;
+}

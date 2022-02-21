@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleGes.css">
+    <script src="https://kit.fontawesome.com/71a4b48035.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- GESTION DE DATOS DE UN CLIENTE
+    NOMBRE
+    APELLIDOS 
+    EDAD
+    DNI
+    FECHA DE NACIMIENTO
+    MONTO EN CUENTA
+
+
+    SE PODRÁ GUARDAR DINERO EN LA CUENTA Y TAMBIEN RETIRAR DINERO DE LA CUENTA
+    UTILIZANDO LOS OBJETOS EN JAVA SCCRIPT
+    -->
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="../index.html" class="nav-menu-link">Inicio</a></li>
+                <li class="nav-menu-item"><a href="../menuPagVideo/pagVideo.html" class="nav-menu-link">Video</a></li>
+                <li class="nav-menu-item"><a href="../menuPagSobreMi/pagSobreMi.html" class="nav-menu-link">Sobre mí</a></li>
+                <li class="nav-menu-item"><a href="../menuPagContactos/pagContactos.html" class="nav-menu-link">Contactos</a></li>
+                <li class="nav-menu-item"><a href="../creacionDeLinks/pagCreationLink.html" class="nav-menu-link">Generar links</a></li>
+                <li class="nav-menu-item"><a href="" class="nav-menu-link  nav-menu-link-active">Objetos</a></li>
+                <li class="nav-menu-item"><a href="" class="nav-menu-icon"><i class="fab fa-facebook-square"></i></a></li>
+                <li class="nav-menu-item"><a href="" class="nav-menu-icon"><i class="fab fa-youtube"></i></a></li>
+                <li class="nav-menu-item"><a href="" class="nav-menu-icon"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="principal">
+        <div class="contenedor">
+            <div class="inputs-contenedor">
+                <input class="input-info" id="input-nombre" type="text" placeholder="Escriba su nombre">
+                <input class="input-info" id="input-apellidos" type="text" placeholder="Escriba sus apellidos">
+                <input class="input-info" id="input-edad" type="number" placeholder="Ingrese su edad">
+                <input class="input-info" id="input-dni" type="text" placeholder="Digite su dni">
+                <input class="input-info" id="input-fecha-nacimiento" type="date" placeholder="Fecha">
+                <input class="input-info" id="input-monto" type="text" placeholder="Registrar monto">
+            </div>
+            <div class="boton-enviar">
+                <button class="boton-enviar-datos" onclick="registrarDatos()">Registrar cliente</button>
+            </div>
+            <div class="tabla-datos">
+                <table class="tabla">
+                    <tr>
+                        <th class="title-table">Nombre</th>
+                        <th class="title-table">Apellidos</th>
+                        <th class="title-table">Edad</th>
+                        <th class="title-table">DNI</th>
+                        <th class="title-table">Fecha Nacimiento</th>
+                        <th class="title-table">Monto S/.</th>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </main>
+    <!-- FOOTER DE LA PAGINA -->
+    <footer class="footer">
+        
+        <div class="icons-footer">
+            <a href="" class="icon"><i class="fab fa-facebook-square"></i></a>
+            <a href="" class="icon"><i class="fab fa-youtube"></i></a>
+            <a href="" class="icon"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p class="gratulaciones">Gracias por visitar mi página :)</p>
+        <p class="der">Todos los derechos de autor reservados.</p>
+    </footer>
+    <script src="codigoGestion.js"></script>
+</body>
+</html>

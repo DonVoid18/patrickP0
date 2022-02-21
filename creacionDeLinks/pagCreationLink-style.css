@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+/* CSS DEL HEADER */
+
+.header{
+    background-color: #ffc300;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    -webkit-box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.75);
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 30px;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+.nav-menu-link{
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.nav-menu-icon{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.nav-menu-link i{
+    line-height: 70px;
+}
+.nav-menu-link-active{
+    background-color: #023e7d;
+}
+.nav-menu-link:hover{
+    background-color: #023e7d;
+    transition: 0.3s;
+}
+.nav-menu-icon:hover{
+    color: black;
+    transition: 0.3s;
+}
+
+
+/* CSS DE LA PAGINA PRINCIPAL */
+.contenedor{
+    padding-top: 100px;
+    width: 100%;
+    height: calc(100vh - 200px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.contenedor-link-clase{
+    margin: 20px;
+    display: flex;
+}
+.link{
+    width: 800px;
+    height: 50px;
+    background-color: #dddddd;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link:hover{
+    border-bottom: 2px solid black;
+}
+.input-generador{
+    border-radius: 50%;
+    background: none;
+    border: 0;
+    background-color: #222831;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.input-generador:hover{
+    background-color: #222831c0;
+}
+.contenedor-botones{
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.input-botones{
+    padding: 10px 20px;
+    background: none;
+    border: 0;
+    outline:0;
+    border: 2px solid #222831;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botonEnviarDatos:hover{
+    background-color: #222831;
+    color: white;
+}
+
+/* CSS DE LA TABLA */
+.contenedor-todos-links{
+    margin: 50px 0;
+    overflow-y: auto;
+    height: 500px;
+}
+/* PARA MODIFICAR EL SCROLL DE LA PAGINA */
+.contenedor-todos-links::-webkit-scrollbar{
+    width: 5px;
+}
+.contenedor-todos-links::-webkit-scrollbar-thumb{
+    background: #222831;
+    border-radius: 5px;
+}
+thead{
+	background-color: #222831c0;
+	color: white;
+}
+.cebecera-table-valor{
+    padding: 10px;
+}
+.fila-tabla,td{
+    padding: 5px 15px;
+    text-align: center;
+}
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+
+/* CODIGO CSS DEL FOOTER */
+.footer{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: #001219;
+    color: white;
+}
+.icons-footer{
+    padding: 20px 0 0 0;
+}
+.icons-footer .icon{
+   font-size: 4em;
+   margin: 0 20px; 
+}
+.icon{
+    color: white;
+}
+.icon:hover{
+    color: dimgrey;
+}
+.gratulaciones{
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+}
+.der{
+    height: 50px;
+    line-height: 50px;
+}

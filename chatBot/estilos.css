@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+.chat{
+    background-color: #002855;
+    opacity: 0.9;
+    width: 300px;
+    height: 500px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+/* CABEZA */
+.infoChat{
+    background-color: #0466c8;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.imagen{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: white;
+    margin-left: 20px;
+}
+.imagen img{
+    padding: 2px;
+}
+.cerrarChat{
+    background: none;
+    border: 0;
+    margin-right: 20px;
+}
+.cerrarChat i{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.cerrarChat i:hover{
+    font-size: 30px;
+    color: #ffc300;
+}
+/* CUERPO */
+.mensaje-chat{
+    width: 90%;
+    height: 350px;
+    background-color: #0466c8;
+    margin: 13px auto;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+.mensaje-chat::-webkit-scrollbar{
+    width: 5px;
+}
+.mensaje-chat::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 5px;
+}
+.mensaje-bot, .mensaje-cliente{
+    width: max-content;
+    height: auto;
+    border-radius: 20px;
+    background-color: black;
+    margin: 10px;
+    padding: 20px;
+}
+
+.div-izquierdo-chat-bot{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.div-derecho-chat-cliente{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mensaje-cliente{
+    border-bottom-right-radius: 0;
+}
+.mensaje-bot{
+    border-top-left-radius: 0;
+}
+
+/* BOTONES */
+.botones-textos{
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+}
+.mensaje{
+    width: 80%;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 5px;
+    border: 5px solid #0466c8;
+}
+
+.boton{
+    width: 20%;
+    background: none;
+    border: none;
+    color: white;
+}
+.boton i{
+    font-size: 35px;
+    cursor: pointer;
+}
+.boton i:hover{
+    color: #ffc300;
+}
